@@ -1,4 +1,10 @@
+# requirements for pytest-cov
 pytest
 pytest-cov
 requests
 pytest-mock
+
+# requirements for GenAI
+openai
+dotenv
+markdown2

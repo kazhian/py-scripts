@@ -9,6 +9,7 @@
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
+import markdown2
 
 # Load api_key and use in your OpenAI client
 load_dotenv()
@@ -39,14 +40,14 @@ def get_openai_response(user_input):
     except Exception as error:
         return f"An error occurred: {error}"
 
-caption = "Ask me something (or 'quit' to end the program): "  
+caption = "$ Ask me something (or 'quit' to end the program): "  
 
 user_prompt = ""
 while user_prompt != "quit":
     user_prompt = input(caption)
 
     if user_prompt != "quit":
-        response = get_openai_response(user_prompt)
+        response = markdown2.markdown(get_openai_response(user_prompt))
         if response:
             print(f"OpenAI Response: {response}")
         else:
