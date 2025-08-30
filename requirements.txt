@@ -8,3 +8,7 @@ pytest-mock
 openai
 dotenv
 markdown2
+
+# for type safe examples
+mypy
+pydantic
