@@ -1,3 +1,7 @@
+# Stock Price Tracker
+# pip install streamlit pandas yfinance plotly
+# Run: streamlit run stock_price.py
+
 import streamlit as st
 import pandas as pd
 import yfinance as yf

@@ -1,7 +1,112 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyo
+*.pyd
+.Python
+*.so
+*.dll
+*.pyc
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.mypy_cache/
+.pytest_cache/
+
+# Virtual Environment
+.venv
+venv/
+env/
+ENV/
+.env
+.venv/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+.idea/*.xml
+.idea/*.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/misc.xml
+.idea/inspectionProfiles/
+.idea/scopes/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Project specific
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.pkl.*
+*.h5
+*.hdf5
+*.model
+*.weights
+*.pb
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.npy
+*.npz
+*.parquet
+*.feather
+*.hdf
+*.h5p
+*.h5ad
+*.loom
+*.mtx
+*.rds
+*.rda
+*.fcs
+*.zarr
+*.zattrs
+*.zgroup
+*.zarray
+*.zmetadata
+*.zstore
 
 # C extensions
 *.so
