@@ -1,3 +1,6 @@
+# Install pipdeptree
+pipdeptree
+
 # requirements for pytest-cov
 pytest
 pytest-cov
@@ -12,3 +15,13 @@ markdown2
 # for type safe examples
 mypy
 pydantic
+
+# for Tokenizing
+tiktoken
+transformers
+torch>=2.0.0
+
+# for Streamlit
+streamlit
+yfinance
+plotly
