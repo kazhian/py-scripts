@@ -25,3 +25,10 @@ torch>=2.0.0
 streamlit
 yfinance
 plotly
+
+# PDF
+pypdf2
+reportlab
+
+# Matplotlib
+matplotlib
